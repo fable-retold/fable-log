@@ -1,70 +1,99 @@
 {
-	"Generated": "2026-05-14T22:50:22.755Z",
+	"Generated": "2026-05-22T05:38:13.278Z",
+	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
-	"Groups": [
-		{
-			"Name": ".config",
-			"Key": ".config",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "code-server",
-					"Repo": "code-server",
-					"Group": ".config",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				},
-				{
-					"Name": "configstore",
-					"Repo": "configstore",
-					"Group": ".config",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Dist",
-			"Key": "dist",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "indoctrinate_content_staging",
-					"Repo": "indoctrinate_content_staging",
-					"Group": "dist",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Docs",
-			"Key": "docs",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "css",
-					"Repo": "css",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"css/docuserve.css"
-					]
-				}
-			]
-		}
-	]
+	"Module": {
+		"Name": "fable-log",
+		"Repo": "fable-log",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Introduction",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quick Start",
+						"Path": "getting-started.md"
+					}
+				]
+			},
+			{
+				"Title": "Configuration",
+				"Children": [
+					{
+						"Title": "Configuration",
+						"Path": "configuration.md"
+					}
+				]
+			},
+			{
+				"Title": "Log Providers",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "providers.md"
+					},
+					{
+						"Title": "Custom Providers",
+						"Path": "custom-providers.md"
+					}
+				]
+			},
+			{
+				"Title": "API Reference",
+				"Children": [
+					{
+						"Title": "API Reference",
+						"Path": "api-reference.md"
+					}
+				]
+			},
+			{
+				"Title": "Advanced Usage",
+				"Children": [
+					{
+						"Title": "Browser Usage",
+						"Path": "browser-usage.md"
+					},
+					{
+						"Title": "Advanced Usage",
+						"Path": "advanced-usage.md"
+					}
+				]
+			},
+			{
+				"Title": "Code Playground",
+				"Path": "playground.md"
+			}
+		],
+		"DocFiles": [
+			".nojekyll",
+			"README.md",
+			"_brand.json",
+			"_cover.md",
+			"_playground.json",
+			"_sidebar.md",
+			"_version.json",
+			"advanced-usage.md",
+			"api-reference.md",
+			"browser-usage.md",
+			"configuration.md",
+			"custom-providers.md",
+			"getting-started.md",
+			"index.html",
+			"pict-docuserve.min.js",
+			"playground.md",
+			"providers.md",
+			"retold-catalog.json",
+			"retold-keyword-index.json"
+		]
+	},
+	"Groups": []
 }
