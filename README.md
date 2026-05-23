@@ -1,5 +1,7 @@
 # Fable-Log
 
+> **[&#9654; Read the Fable-Log Documentation](https://stevenvelozo.github.io/fable-log/)** &mdash; interactive docs with the full API reference.
+
 A flexible, extensible logging framework for Node.js and browser applications.
 
 [![Build Status](https://travis-ci.org/stevenvelozo/fable-log.svg?branch=master)](https://travis-ci.org/stevenvelozo/fable-log)
