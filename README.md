@@ -1,6 +1,6 @@
 # Fable-Log
 
-> **[&#9654; Read the Fable-Log Documentation](https://stevenvelozo.github.io/fable-log/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Fable-Log Documentation](https://fable-retold.github.io/fable-log/)** &mdash; interactive docs with the full API reference.
 
 A flexible, extensible logging framework for Node.js and browser applications.
 
@@ -183,9 +183,9 @@ Then open http://localhost:3000 in your browser.
 
 Fable-Log is designed to work seamlessly with other Fable packages:
 
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
-- [pict](https://github.com/stevenvelozo/pict) - UI framework
+- [fable](https://github.com/fable-retold/fable) - Application services framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
+- [pict](https://github.com/fable-retold/pict) - UI framework
 
 ## Testing
 
@@ -203,9 +203,9 @@ npm run coverage
 
 ## Related Packages
 
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
-- [fable-log-logger-bunyan](https://github.com/stevenvelozo/fable-log-logger-bunyan) - Bunyan logger for Fable-Log
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
+- [fable](https://github.com/fable-retold/fable) - Application services framework
+- [fable-log-logger-bunyan](https://github.com/fable-retold/fable-log-logger-bunyan) - Bunyan logger for Fable-Log
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
 
 ## License
 

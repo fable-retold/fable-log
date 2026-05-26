@@ -44,6 +44,6 @@ npm install fable-log
 
 ## Related Packages
 
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
-- [pict](https://github.com/stevenvelozo/pict) - UI framework
+- [fable](https://github.com/fable-retold/fable) - Application services framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
+- [pict](https://github.com/fable-retold/pict) - UI framework

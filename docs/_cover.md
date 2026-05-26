@@ -7,5 +7,5 @@
 - Browser and Node.js support
 - Seamless integration with Fable service architecture
 
-[GitHub](https://github.com/stevenvelozo/fable-log)
+[GitHub](https://github.com/fable-retold/fable-log)
 [Get Started](#fable-log)
