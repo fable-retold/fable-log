@@ -4,7 +4,6 @@
 
 A flexible, extensible logging framework for Node.js and browser applications.
 
-[![Build Status](https://travis-ci.org/stevenvelozo/fable-log.svg?branch=master)](https://travis-ci.org/stevenvelozo/fable-log)
 [![npm version](https://badge.fury.io/js/fable-log.svg)](https://badge.fury.io/js/fable-log)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
