@@ -105,7 +105,7 @@ const log = new FableLog({
     ]
 });
 log.initialize();
-log.trace('dev logger ready — trace level');
+log.trace('dev logger ready - trace level');
 ```
 
 ### Production Environment
@@ -154,6 +154,6 @@ const log = new FableLog({
     ]
 });
 log.initialize();
-log.info('info — suppressed at error level');
-log.error('error — passes the filter');
+log.info('info - suppressed at error level');
+log.error('error - passes the filter');
 ```

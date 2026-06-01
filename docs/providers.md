@@ -76,7 +76,7 @@ The simple flat file provider writes logs to a file on disk. It uses a buffered 
 The file provider exposes additional methods for file management:
 
 ```javascript
-// Reference snippet — `simpleflatfile` is Node-only and isn't available
+// Reference snippet - `simpleflatfile` is Node-only and isn't available
 // in the browser playground.  Shown here as the shape of the methods.
 console.info("In Node.js with a simpleflatfile stream:");
 console.info("  const fileStream = log.logStreams[0];");
@@ -87,7 +87,7 @@ console.info("  fileStream.closeWriter(callback);");
 #### Example: Graceful Shutdown
 
 ```javascript
-// Reference snippet — `process.on('SIGTERM', ...)` is Node-only.  In the
+// Reference snippet - `process.on('SIGTERM', ...)` is Node-only.  In the
 // browser playground we just show what the shutdown handler would look
 // like; in a real Node service the callback fires when the process
 // receives SIGTERM.
@@ -117,7 +117,7 @@ Providers can be accessed directly from the module:
 ```javascript
 const FableLog = require('fable-log');
 
-// Provider classes — these are static properties on the FableLog
+// Provider classes - these are static properties on the FableLog
 // constructor.  In the browser bundle the file logger isn't exported
 // (file IO is Node-only), so guard accordingly.
 const BaseLogger     = FableLog.LogProviderBase;

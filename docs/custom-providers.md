@@ -135,7 +135,7 @@ class HttpLogger extends BaseLogger {
 const demoLogger = new HttpLogger({ endpoint: 'https://logs.example.com', batchSize: 2 }, null);
 demoLogger.initialize();
 demoLogger.write('info', 'first',  { i: 1 });
-demoLogger.write('info', 'second', { i: 2 }); // hits batchSize → flush
+demoLogger.write('info', 'second', { i: 2 }); // hits batchSize -> flush
 console.log('after demo writes, buffer size:', demoLogger.buffer.length);
 ```
 
@@ -174,7 +174,7 @@ console.log('captured by http stream:', log.logStreams[0].sent);
 ## Example: MongoDB Provider
 
 ```javascript
-// Reference snippet — `require('mongodb')` isn't available in the
+// Reference snippet - `require('mongodb')` isn't available in the
 // playground (it's a Node-native driver).  We sketch the shape of the
 // class so the doc renders, with a fake MongoClient that records what
 // would have been written.

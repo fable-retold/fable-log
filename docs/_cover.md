@@ -5,7 +5,7 @@
 - Multiple log providers and streams
 - Configurable log levels and filtering
 - Browser and Node.js support
-- Seamless integration with Fable service architecture
+- Smooth integration with Fable service architecture
 
 [GitHub](https://github.com/fable-retold/fable-log)
 [Get Started](#fable-log)

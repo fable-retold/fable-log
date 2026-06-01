@@ -34,7 +34,7 @@ log.info('User action', { userId: 123 });
 Add request-specific context in web applications:
 
 ```javascript
-// Express middleware reference — Express + a real `app` aren't loaded
+// Express middleware reference - Express + a real `app` aren't loaded
 // in the playground, so we stub the call shape so the snippet runs.
 const FableLog = require('fable-log');
 const log = new FableLog();
@@ -163,7 +163,7 @@ const log = new FableLog({
 });
 log.initialize();
 
-// `LogProviderFlatfile` is the Node-only file logger — undefined in
+// `LogProviderFlatfile` is the Node-only file logger - undefined in
 // the browser bundle.  Guard so the snippet runs cleanly in both.
 const FileLogger = FableLog.LogProviderFlatfile;
 if (typeof FileLogger === 'function')
@@ -217,7 +217,7 @@ const log = new FableLog();
 log.initialize();
 
 // db.query / processData are stand-ins for whatever real work
-// your handler does — stubbed here so the snippet runs.
+// your handler does - stubbed here so the snippet runs.
 const db = { query: async (sql) => { await new Promise(r => setTimeout(r, 5)); return [{ id: 1 }]; } };
 const processData = (data) => data.map(r => ({ ...r, processed: true }));
 
@@ -287,7 +287,7 @@ await processBatch(demoBatch);
 
 ## Integration with Fable
 
-Fable-Log integrates seamlessly with the Fable application framework:
+Fable-Log integrates smoothly with the Fable application framework:
 
 ```javascript
 const libFable = require('fable');
@@ -343,7 +343,7 @@ await riskyOperation(false).catch(() => {});
 ### Unhandled Exception Logging
 
 ```javascript
-// Reference snippet — `process.on(...)` is Node-only.  In the browser
+// Reference snippet - `process.on(...)` is Node-only.  In the browser
 // the equivalent hooks are `window.addEventListener('error', ...)` and
 // `window.addEventListener('unhandledrejection', ...)`, but we just
 // print the shape here so the doc renders cleanly without bolting on

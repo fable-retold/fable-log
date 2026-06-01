@@ -2,7 +2,7 @@
 
 > A flexible, extensible logging framework for Node.js and browser applications
 
-Fable-Log is a lightweight logging wrapper that provides a consistent logging interface across the Fable package ecosystem. It supports multiple simultaneous log streams, customizable log levels, and works seamlessly in both Node.js and browser environments.
+Fable-Log is a lightweight logging wrapper that provides a consistent logging interface across the Fable package ecosystem. It supports multiple simultaneous log streams, customizable log levels, and works smoothly in both Node.js and browser environments.
 
 ## Features
 

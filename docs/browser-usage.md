@@ -90,7 +90,7 @@ Output appears in the browser's console with expandable objects.
 ### Using Webpack
 
 ```javascript
-// webpack.config.js — build-time config, shown as reference text.
+// webpack.config.js - build-time config, shown as reference text.
 const webpackConfig = {
     entry: './src/app.js',
     output: {

@@ -1,6 +1,6 @@
 # Fable-Log
 
-> **[&#9654; Read the Fable-Log Documentation](https://fable-retold.github.io/fable-log/)** &mdash; interactive docs with the full API reference.
+> **[Read the Fable-Log Documentation](https://fable-retold.github.io/fable-log/)** - interactive docs with the full API reference.
 
 A flexible, extensible logging framework for Node.js and browser applications.
 
@@ -181,7 +181,7 @@ Then open http://localhost:3000 in your browser.
 
 ## Part of the Fable Ecosystem
 
-Fable-Log is designed to work seamlessly with other Fable packages:
+Fable-Log is designed to work smoothly with other Fable packages:
 
 - [fable](https://github.com/fable-retold/fable) - Application services framework
 - [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
